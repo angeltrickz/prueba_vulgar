@@ -14,11 +14,13 @@
   "homepage": "https://github.com/datatypevoid/vulgar",
   "license": "MIT",
   "scripts": {
-     "preinstall": "npm i typings -g",
+     
     "rimraf": "rimraf",
     "tslint": "tslint",
     "typedoc": "typedoc",
     "typings": "typings",
+    "preinstall": "npm run typings install",
+    
     "webpack": "webpack",
     "webpack-dev-server": "webpack-dev-server",
     "webdriver-manager": "webdriver-manager",
