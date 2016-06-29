@@ -193,7 +193,7 @@
     "url": "https://github.com/datatypevoid/vulgar/issues"
   },
   "engines": {
-      "node": ">= 4.2.1",
-    "npm": ">= 3"
+      "node": ">= 4.1.1",
+    "npm": ">= 2.1.x"
   }
 }
