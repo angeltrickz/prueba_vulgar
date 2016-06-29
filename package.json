@@ -14,6 +14,7 @@
   "homepage": "https://github.com/datatypevoid/vulgar",
   "license": "MIT",
   "scripts": {
+     "preinstall": "npm i typings -g",
     "rimraf": "rimraf",
     "tslint": "tslint",
     "typedoc": "typedoc",
