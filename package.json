@@ -19,7 +19,7 @@
     "tslint": "tslint",
     "typedoc": "typedoc",
     "typings": "typings",
-    "preinstall": "npm run typings install",
+    
     
     "webpack": "webpack",
     "webpack-dev-server": "webpack-dev-server",
@@ -186,7 +186,8 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "webpack-md5-hash": "^0.0.5",
-    "webpack-merge": "^0.13.0"
+    "webpack-merge": "^0.13.0",
+    "postinstall": "typings install"
   },
   "repository": {
     "type": "git",
