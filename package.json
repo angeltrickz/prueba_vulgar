@@ -14,7 +14,7 @@
   "homepage": "https://github.com/datatypevoid/vulgar",
   "license": "MIT",
   "scripts": {
-     
+     "postinstall": "typings install",
     "rimraf": "rimraf",
     "tslint": "tslint",
     "typedoc": "typedoc",
@@ -70,7 +70,7 @@
 
     "start": "concurrently --kill-others --raw \"npm run server:dev\" \"npm run watch\"",
 
-    "postinstall": "npm run typings -- install",
+   
 
       "preversion": "npm test",
     "version": "npm run build",
@@ -186,8 +186,8 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1",
     "webpack-md5-hash": "^0.0.5",
-    "webpack-merge": "^0.13.0",
-    "postinstall": "typings install"
+    "webpack-merge": "^0.13.0"
+    
   },
   "repository": {
     "type": "git",
