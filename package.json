@@ -19,7 +19,7 @@
     "tslint": "tslint",
     "typedoc": "typedoc",
     "typings": "typings",
-    "postinstall": "typings install && tsc -p ./server",
+   
     
     "webpack": "webpack",
     "webpack-dev-server": "webpack-dev-server",
